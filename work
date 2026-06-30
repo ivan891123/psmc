@@ -1,0 +1,38 @@
+1.新增、查詢XM01 table
+
+目的:
+透過WEBOPI查詢及修改XM01 table
+(1) FXSTCONF, 讓STK等2批貨的時間可即時變動
+(2) FXBTBCFG, 讓OHS的路徑可即時修正
+(3) FXSTPORT (port卡控設定)
+(4) FXEQPSTK (loader卡控設定)
+(5) FXSTATUS (XM Component Status Table)
+
+效益:
+方便值班從OPI操作 (現況只能到OS2電腦操作)
+
+2.JOB 呼叫webservice傳送光罩資訊 Done
+如需了解以上資訊，現行須電話聯絡對廠，溝通詢問每枚花費時間10分鐘，每日平均傳遞約9片，需耗時90分鐘
+
+3.PMOS輸出ROOM空格位位置 Done
+FAB線上退倉光罩長期使用,即時更新空格位,增加工作效益
+
+4.查詢光罩廠區位置 Done
+資料優化,減少工時,可即時處理作業
+
+5.光罩定檢自動解單 
+效益:particle <100um, count =1 異常單自動解單,可減少值班手動解單loading
+
+6.黃光rework時自動生成Future Hold(ADF1)
+效益:避免photo值班未通知PAC1值班special control造成low yield
+
+7.PMOS 智能化資料查詢
+目的:透過by產品查詢，減少個別查詢的時間，以及自動計算下次定檢時間，可減少計算天數的作業時間&避免算錯
+效益:將光罩定期檢驗資訊需與維護資訊整合在一起，以利快速查詢
+
+8.ONC 2N IFA73 IFA74系統run貨-網頁介面
+目的：ONC IFA73、IFA74主站點，增加IB102機台，提前併批可以減少IFA73、IFA74 run貨次數   (IB102機台沒有問題，run IFA73、IFA74可以整批
+
+
+
+
