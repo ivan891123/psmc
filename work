@@ -39,6 +39,13 @@
 目的：ONC IFA73、IFA74主站點，增加IB102機台，提前併批可以減少IFA73、IFA74 run貨次數   (IB102機台沒有問題，run IFA73、IFA74可以整批
 
 9.PMOS POSTGRESQL DB移轉
+步驟:
+1.db移轉
+2.程式sql調整、連線調整
+3.資料同步
+4.平行驗證
+5.上線
+
 效益:
 Oracle DB 授權費以實體機CPU計價，現行DB的虛擬機散在各實體機，導致所需授權費用高昂。1個DB約須TWD 1700w/year
 將Oracle DB 遷移至 PostgreSQL費用：FREE
